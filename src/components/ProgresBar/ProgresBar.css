@@ -1,0 +1,108 @@
+.ProgresBar{
+    display: flex;    
+    max-width: 400px;    
+}
+.topMassege{
+    float: right;
+    border: #FDFEFF outset 1px;
+    width: 35px;
+    height: 20px;
+    border-radius: 7px;
+    text-align: center;
+    color: white;    
+    position: absolute;
+    
+}
+.countermassege{
+    margin: auto;
+    text-align: center;   
+    background-image: linear-gradient(120deg, #d4fc79 0%, #238D1E 100%);
+    width: 33px;
+    height: 19px;
+    border-radius: 5px;    
+}
+.headerTitel{
+    position: relative;
+    left: 10px;
+}
+.externalConteiner{
+    border: 2px #D3D3D3 solid;
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.interiorConteiner{    
+    text-align: start;
+    max-width: 95%;
+    border: 2px dotted #44B3DF;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;   
+    padding: 5px;
+    background-color: white;
+    padding: 10px;    
+}
+.titel{
+    font-size: 20px;
+    color: black;
+}
+p{
+    font-size: 15px;
+}
+.MounTitel{
+    font-size: 15px;
+    color: black;
+}
+.progress-bar {    
+    height: 20px;
+    width: 350px;          
+    border: 1px solid #333; 
+    background-color: white;
+    text-align: center;   
+  }
+  
+  .filler {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    height: 100%;
+    width: 350px; 
+    border-radius: inherit;  
+    transition:  1.5s;
+    text-align: center;
+    
+    
+  }  
+   button {
+    top: 10px;
+    position: relative;
+    margin-right: 10px;
+    padding: 7px 12px;
+    font-size: 14px;
+    background: #d14836;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    outline: 0;
+  }
+  .secondInteriorConteiner{
+      border: 1px solid #E8F3FA;
+      border-radius: 5px;
+     background-color: #F2FBFF;
+     padding: 10px;
+    }
+    .footer{
+        display: flex;
+        justify-content:flex-start;
+    }
+    .proceed{
+        background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+        height: 35px;
+        width: 50%;
+        border-radius: 10px;       
+    }
+    .dayLeft{
+        font-size: 13px;
+        position: relative;
+        top: 5px;
+        color: gray;
+    }
